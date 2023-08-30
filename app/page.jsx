@@ -11,9 +11,9 @@ async function HomePage() {
   const users = await fetchUsers();
 
   return (
-    <body>
+    <div>
       <Users users={users} />
-    </body>    
+    </div>    
   )
 }
 
